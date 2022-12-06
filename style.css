@@ -1,13 +1,103 @@
+html, body{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
 #header{
-	background-color: orange;
+	background-color: orchid;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 50%;
+}
+
+nav{
+	display: flex;
+}
+
+nav ul:hover{
+	flex-direction: row;
+	border-top: 10px;
+	border-top: solid;
+	border-top-color: blue;
+}
+
+nav a{
+	margin-right: 45px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+a:hover{
+	color: blue;
+	text-decoration: none;
 }
 
 #recherches{
-	background-color: red;
+	background-color: lightpink;
+}
+
+.localisation{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+#recherches img{
+	width: 25px;
 }
 
 #filtres{
-	background-color: blue;
+	margin-top: 20px;
+}
+
+.filtre{
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	width: 80%;
+}
+
+.filtrechild{
+	display: flex;
+	align-items: baseline;
+	border-radius: 100px;
+	border-width: 10px;
+	border: 1px;
+	border-style: solid;
+	width: 150px;
+	border-color: blue;
+	border-width: 1px 1px 1px 0px;
+	border-color: lightgrey
+}
+
+.texticon{
+	margin-left: 10px;
+}
+
+.filtredog{
+	width: 200px;
+	display: flex;
+	align-items: baseline;
+	border-radius: 100px;
+	border-width: 10px;
+	border:	1px;
+	border-style: solid;
+	border-color: lightgrey;
+}
+
+.icon{
+	padding: 10px;
+    background-color: lightblue;
+    border-radius: 100px; 
 }
 
 #groupe{
@@ -17,11 +107,12 @@
 }
 
 #hebergement{
-	background-color: grey;
+	background-color: lightgrey;
 	width: 60%;
 }
+
 .populaires{
-	background-color: seagreen;
+	background-color: lightcoral;
 	width: 40%;
 }
 
@@ -30,5 +121,5 @@
 }
 
 #footer{
-	background-color: green;
+	background-color: lightseagreen;
 }
