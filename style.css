@@ -52,7 +52,7 @@ a:hover{
 }
 
 #recherches img{
-	width: 25px;
+	width: 20px;
 }
 
 #filtres{
@@ -63,7 +63,7 @@ a:hover{
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
-	width: 80%;
+	width: 75%;
 }
 
 .filtrechild{
@@ -76,28 +76,62 @@ a:hover{
 	width: 150px;
 	border-color: blue;
 	border-width: 1px 1px 1px 0px;
-	border-color: lightgrey
+	border-color: #F2F2F2;
 }
 
-.texticon{
-	margin-left: 10px;
-}
-
-.filtredog{
-	width: 200px;
+.filtrefamily{
+	width: 120px;
 	display: flex;
 	align-items: baseline;
 	border-radius: 100px;
 	border-width: 10px;
 	border:	1px;
 	border-style: solid;
-	border-color: lightgrey;
+	border-color: #F2F2F2;
+}
+
+.filtredog{
+	width: 195px;
+	display: flex;
+	align-items: baseline;
+	border-radius: 100px;
+	border-width: 10px;
+	border:	1px;
+	border-style: solid;
+	border-color: #F2F2F2;
+}
+
+.texticon{
+	margin-left: 10px;
 }
 
 .icon{
 	padding: 10px;
-    background-color: lightblue;
-    border-radius: 100px; 
+    background-color: #DEEBFF;
+    border-radius: 100px;
+    width: 16px;
+    height: 16px;
+    color : #0065FC;
+}
+
+.info{
+	display: flex;
+	align-items: baseline;
+	
+}
+
+.infoicon{
+	padding: 3px;
+    border-radius: 100px;
+    color: #0065FC;
+    width: 16px;
+    height: 16px;
+    border-width: 10px;
+	border: 1px;
+	border-style: solid;
+	border-color: #F2F2F2;
+	width: 12px;
+	height: 12px;
 }
 
 #groupe{
