@@ -51,8 +51,8 @@ a:hover{
 	align-items: flex-start;
 }
 
-#recherches img{
-	width: 20px;
+.icon_localisation{
+	background-color: #F2F2F2;
 }
 
 .search{
@@ -140,4 +140,79 @@ a:hover{
 .info p{
 	padding-left: 8px;
 }
+
+#hebergements{
+	background-color: #F2F2F2;
+	border-radius: 25px;
+	width: 60%;
+}
+
+.hebergements_title{
+	padding-left: 25px;
+	padding-top: 15px;
+}
+
+.firstline{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.secondline{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px 30px 30px 30px;
+}
+
+.cartes{
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	width: 200px;
+	border-radius: 20px;
+	border: 3px solid white;
+}
+
+.image{
+	display: flex;
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 92px;
+	border-radius: 20px 20px 0 0;
+}
+
+.cartes_description{
+	padding: 5px 10px 0px 10px;
+	background-color: white;
+    height: 50px;
+}
+
+.cartes_description h4, p{
+	padding-top: 2px;
+	background-color: white;
+	margin: 0;
+}
+
+.stars{
+	display: flex;
+	flex-direction: row;
+	height: 20px;
+	color: #0065FC;
+	font-size: 12px;
+	padding-left: 10px;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.last{
+	display: flex;
+	color: #F2F2F2;
+	align-items: baseline;
+	flex-direction: row;
+}
+
 
