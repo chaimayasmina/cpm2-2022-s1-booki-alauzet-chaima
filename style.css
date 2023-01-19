@@ -49,10 +49,12 @@ a:hover{
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
+	padding-top: 10px;
 }
 
 .icon_localisation{
 	background-color: #F2F2F2;
+	padding-right: 5px;
 }
 
 .search{
@@ -307,7 +309,56 @@ a:hover{
 	flex-direction: row;
 }
 
+/** Activités à Marseille **/ 
 
+#activites{
+	padding: 0px 20px 25px 20px;
+	margin-top: 40px;
+}
 
+.activites_element{
+	display: flex;
+	justify-content: space-between;
+	height: 450px;
+	font-size: smaller;
+}
 
+.activites_title{
+	padding-left: 25px;
+	padding-top: 15px;
+}
 
+.activites_element .column{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 20%;
+	border-radius: 25px;
+}
+
+.activites_element article img{
+	object-fit: cover;
+	height: calc(90% - 50px);
+	width: 100%;
+	border-radius: 25px 25px 0px 0px;
+}
+
+.activites_element .column article{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 25px;
+	height: 100%;
+}
+
+.activites_element article h3{
+	margin-left: 15px;
+}
+
+.activites_element .columntwo article{
+	display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+	width: 350px;
+	height: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 25px 25px 25px 25px;
+}
