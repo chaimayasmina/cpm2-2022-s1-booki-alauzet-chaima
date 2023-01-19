@@ -1,4 +1,4 @@
-html, body{
+body{
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -12,6 +12,8 @@ p{
 	font-weight: lighter;
 	font-size: 15px;
 }
+
+/** Header + nav **/ 
 
 #header{
 	display: flex;
@@ -44,6 +46,8 @@ a:hover{
 	color: blue;
 	text-decoration: none;
 }
+
+/** Recherche et Filtres **/ 
 
 .localisation{
 	display: flex;
@@ -120,6 +124,8 @@ a:hover{
     height: 16px;
     color : #0065FC;
 }
+
+/** Information phrase **/ 
 
 .info{
 	display: flex;
@@ -235,9 +241,9 @@ a:hover{
 }
 
 .populaires{
-	background-color: #F2F2F2;
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
+	background-color: #F2F2F2;
 	width: 35%;
 	border-radius: 25px;
 }
@@ -333,19 +339,19 @@ a:hover{
 	flex-direction: column;
 	justify-content: space-between;
 	width: 20%;
-	border-radius: 25px;
+	border-radius: 20px;
 }
 
 .activites_element article img{
 	object-fit: cover;
 	height: calc(90% - 50px);
 	width: 100%;
-	border-radius: 25px 25px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
 }
 
 .activites_element .column article{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	border-radius: 25px;
+	border-radius: 20px;
 	height: 100%;
 }
 
@@ -361,4 +367,41 @@ a:hover{
 	height: 50%;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	border-radius: 25px 25px 25px 25px;
+}
+
+/** Footer **/ 
+
+.footer_booki {
+	width: 100%;
+	margin-top: 50px;
+	background-color: #F2F2F2;
+}
+
+.footer{
+	display: flex;
+	max-width: 100%;
+	margin: auto;
+	padding: 0px 25px;
+	box-sizing: border-box;
+}
+
+.footer_column{
+	flex: auto;
+	padding: 20px 15px;
+}
+
+.footer_column a{
+	text-decoration: none;
+	font-size: 15px;
+	margin-right: 45px;
+	color: grey;
+}
+
+ul{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	padding: 0;
+	text-decoration: none;
+	color: grey;
 }
