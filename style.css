@@ -288,10 +288,11 @@ a:hover{
 }
 
 .bloc_cartespopulaire a{
-	padding: 0;
+	display: flex;
 	text-decoration: none;
 	color: black;
-	background-color: white;
+	width: 200px;
+	border-radius: 0 12px 12px 0;
 }
 
 .cartes_populaire{
@@ -305,7 +306,7 @@ a:hover{
 .image_populaire{
 	display: inline;
 	background-position: center;
-	width: 30%;
+	width: 50%;
 	height: 130px;
 	object-fit: cover;
     border-radius: 12px 0 0 12px;
@@ -370,6 +371,12 @@ a:hover{
 	border-radius: 20px;
 }
 
+.activites_element .column a{
+	height: 550px;
+	text-decoration: none;
+	color: black;
+}
+
 .activites_element article img{
 	object-fit: cover;
 	height: calc(90% - 50px);
@@ -400,6 +407,10 @@ a:hover{
 	border-radius: 25px 25px 25px 25px;
 }
 
+.columntwo a{
+	text-decoration: none;
+	color: black;
+}
 /** Footer **/ 
 
 .footer_booki {
