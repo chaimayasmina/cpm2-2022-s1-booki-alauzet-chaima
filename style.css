@@ -24,7 +24,7 @@ p {
 	width: 50%;
 }
 
-nav ul{
+nav ul {
 	display: flex;
 	flex-direction: row;
 }
@@ -50,7 +50,8 @@ a:hover {
 
 /** Recherche  **/
 
-.txt_gras, .cvpn {
+.txt_gras,
+.cvpn {
 	margin: 15px;
 }
 
@@ -224,7 +225,8 @@ a:hover {
 	height: 50px;
 }
 
-.cartes_description h4, p {
+.cartes_description h4,
+p {
 	padding-top: 2px;
 	background-color: white;
 	margin: 0;
@@ -461,10 +463,12 @@ ul {
 	.firstline .secondline {
 		min-height: 150px;
 	}
-	.populaires .bloc_cartespopulaire{
+
+	.populaires .bloc_cartespopulaire {
 		min-height: auto;
 		padding: 5px;
 	}
+
 	.populaire_title {
 		margin-top: 0;
 	}
