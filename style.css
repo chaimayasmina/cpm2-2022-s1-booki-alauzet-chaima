@@ -449,3 +449,23 @@ ul {
 	text-decoration: none;
 	color: grey;
 }
+
+/** RESPONSIVE DESKTOP **/
+
+@media screen and (max-width: 992px) {
+
+	#header {
+		margin-left: 5%;
+	}
+
+	.firstline .secondline {
+		min-height: 150px;
+	}
+	.populaires .bloc_cartespopulaire{
+		min-height: auto;
+		padding: 5px;
+	}
+	.populaire_title {
+		margin-top: 0;
+	}
+}
