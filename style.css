@@ -28,11 +28,11 @@ nav{
 	display: flex;
 }
 
-nav ul:hover{
+nav a:hover{
 	flex-direction: row;
 	border-top: 10px;
 	border-top: solid;
-	border-top-color: blue;
+	border-top-color: #0065FC;
 }
 
 nav a{
@@ -47,82 +47,98 @@ a:hover{
 	text-decoration: none;
 }
 
-/** Recherche et Filtres **/ 
+/** Recherche  **/
 
-.localisation{
+.txt_gras, .cvpn{
+	margin: 15px;
+}
+
+#localisation{
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	padding-top: 10px;
+	margin: 15px;
 }
 
-.icon_localisation{
+#icon_localisation{
+	display: flex;
 	background-color: #F2F2F2;
-	padding-right: 5px;
+	width: 40px;
+	height: 38px;
+	align-items: center;
+	border: none;
+	justify-content: center;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
 }
 
 .search{
-	border-radius: 5px;
-}
-
-#filtres{
-	margin-top: 20px;
-}
-
-.filtre{
-	display: flex;
-	align-items: baseline;
-	justify-content: space-between;
-	width: 75%;
-}
-
-.filtrechild{
-	width: 150px;
-	display: flex;
-	align-items: baseline;
-	border-radius: 100px;
-	border-width: 10px;
-	border: 1px;
-	border-style: solid;
-	border-width: 1px 1px 1px 0px;
-	border-color: #F2F2F2;
-}
-
-.filtrefamily{
+	border: none;
+	height: 35px;
 	width: 120px;
-	display: flex;
-	align-items: baseline;
-	border-radius: 100px;
-	border-width: 10px;
-	border: 1px;
-	border-style: solid;
-	border-width: 1px 1px 1px 0px;
-	border-color: #F2F2F2;
 }
 
-.filtredog{
-	width: 195px;
-	display: flex;
-	align-items: baseline;
-	border-radius: 100px;
-	border-width: 10px;
-	border: 1px;
-	border-style: solid;
-	border-width: 1px 1px 1px 0px;
-	border-color: #F2F2F2;
+.searchbutton{
+	background-color: #0065FC;
+	height: 38px;
+	color: #ffffff;
+	font-weight: bold;
+	border: none;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
 }
 
-.texticon{
+#search_button_mobile{
+	display: none;
+}
+
+/** Filtres **/ 
+
+.filtres{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px;
+	margin-top: 30px;
+}
+
+.filtres div:hover{
+	background-color: #0065FC;
+	transition: 0.5s;
+}
+
+.filtres h1{
+	margin-right: 20px;
+}
+
+.filtres i{
+	display: flex;
+	width: 10px;
+	min-width: 35px;
+	min-height: 35px;
+	margin-right: 10px;
+	margin: -1px;
+	justify-content: center;
+	align-items: center;
+	background-color: #DEEBFF;
+	border-radius: 100%;
+	color: #0065FC;
+}
+
+.filtres div{
+	display: flex;
+	align-items: center;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	border: 2px solid #d9d9d9;
+	border-width: 1px 1px 1px 0px;
+	border-radius: 30px;
+
+}
+
+.filtres span{
 	margin-left: 10px;
-}
-
-.icon{
-	padding: 10px;
-    background-color: #DEEBFF;
-    border-radius: 100px;
-    width: 16px;
-    height: 16px;
-    color : #0065FC;
+	margin-right: 10px;
 }
 
 /** Information phrase **/ 
@@ -185,6 +201,11 @@ a:hover{
   	width: 200px;
 	border-radius: 20px;
 	border: 3px solid white;
+}
+
+.cartes a{
+	text-decoration: none;
+	color: black;
 }
 
 .image_hebergements{
@@ -266,6 +287,13 @@ a:hover{
 	margin: 7px;
 }
 
+.bloc_cartespopulaire a{
+	padding: 0;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+}
+
 .cartes_populaire{
 	display: flex;
 	flex-direction: row;
@@ -325,7 +353,7 @@ a:hover{
 .activites_element{
 	display: flex;
 	justify-content: space-between;
-	height: 450px;
+	height: 550px;
 	font-size: smaller;
 }
 
@@ -359,12 +387,15 @@ a:hover{
 	margin-left: 15px;
 }
 
-.activites_element .columntwo article{
+.columntwo{
 	display: flex;
     justify-content: space-between;
     flex-direction: column;
 	width: 350px;
-	height: 50%;
+}
+
+.columntwo article{
+	height: 250px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	border-radius: 25px 25px 25px 25px;
 }
